@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { translations, translateTerm } from '../translations'
 import { Landmark, Sparkles, AlertCircle, FileText, ChevronDown, ChevronUp, Check, Info, FileCheck, HelpCircle } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function Schemes({ lang, user }) {
   const t = translations[lang]
@@ -20,7 +21,7 @@ export default function Schemes({ lang, user }) {
     if (!token) return
 
     try {
-      const response = await fetch('/api/schemes/match', {
+      const response = await fetch(`${API_BASE}/api/schemes/match`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const data = await response.json()

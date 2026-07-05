@@ -26,6 +26,10 @@ class RAGDatabase:
         )
 
     def _load_model(self):
+        if os.environ.get("USE_MOCK_EMBEDDINGS", "false").lower() == "true":
+            print("USE_MOCK_EMBEDDINGS is enabled. Skipping SentenceTransformer loading.")
+            self.has_model = False
+            return
         try:
             from sentence_transformers import SentenceTransformer
             print("Loading SentenceTransformer model 'all-MiniLM-L6-v2'...")

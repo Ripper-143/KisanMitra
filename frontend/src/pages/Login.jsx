@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { translations } from '../translations'
 import { LogIn, Key, Mail } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function Login({ setAuth, lang, onToggleAuth }) {
   const t = translations[lang]
@@ -15,7 +16,7 @@ export default function Login({ setAuth, lang, onToggleAuth }) {
     setLoading(true)
 
     try {
-      const response = await fetch('/api/auth/login', {
+      const response = await fetch(`${API_BASE}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { translations } from '../translations'
 import { UploadCloud, CheckCircle2, ShieldAlert, HeartPulse, Sparkles, Activity, FileText } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function CropUpload({ lang, user }) {
   const t = translations[lang]
@@ -16,7 +17,7 @@ export default function CropUpload({ lang, user }) {
     
     const token = localStorage.getItem('kisan_token')
     try {
-      const response = await fetch(`/api/crop/diagnose/${report.id}/pdf`, {
+      const response = await fetch(`${API_BASE}/api/crop/diagnose/${report.id}/pdf`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -69,7 +70,7 @@ export default function CropUpload({ lang, user }) {
     formData.append('crop_type', cropType)
 
     try {
-      const response = await fetch('/api/crop/diagnose', {
+      const response = await fetch(`${API_BASE}/api/crop/diagnose`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { translations } from '../translations'
 import { BellRing, Send, HelpCircle, AlertTriangle, ShieldCheck, Smartphone, MessageSquare } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function Alerts({ lang, user }) {
   const t = translations[lang]
@@ -22,7 +23,7 @@ export default function Alerts({ lang, user }) {
     if (!token) return
 
     try {
-      const response = await fetch('/api/alerts', {
+      const response = await fetch(`${API_BASE}/api/alerts`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const data = await response.json()
@@ -66,7 +67,7 @@ export default function Alerts({ lang, user }) {
 
     const token = localStorage.getItem('kisan_token')
     try {
-      const response = await fetch('/api/alerts/send', {
+      const response = await fetch(`${API_BASE}/api/alerts/send`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

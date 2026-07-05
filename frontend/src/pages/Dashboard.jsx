@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { translations, translateTerm, getTranslatedAdvisory } from '../translations'
 import { Sprout, CloudSun, BadgeIndianRupee, Award, MailWarning, Droplets, Sun, Wind, CheckCircle, AlertTriangle, XCircle, ArrowUpRight } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function Dashboard({ lang, user, setActiveTab }) {
   const t = translations[lang]
@@ -20,25 +21,25 @@ export default function Dashboard({ lang, user, setActiveTab }) {
 
     try {
       // 1. Fetch Weather Advisory
-      const weatherRes = await fetch(`/api/weather/advisory?city=${user.land_profile?.district || 'Guntur'}`, {
+      const weatherRes = await fetch(`${API_BASE}/api/weather/advisory?city=${user.land_profile?.district || 'Guntur'}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const wData = await weatherRes.json()
 
       // 2. Fetch Market Prices
-      const marketRes = await fetch(`/api/market/prices?crop=${user.land_profile?.crop_type || 'Cotton'}&state=${user.land_profile?.state || 'Andhra Pradesh'}`, {
+      const marketRes = await fetch(`${API_BASE}/api/market/prices?crop=${user.land_profile?.crop_type || 'Cotton'}&state=${user.land_profile?.state || 'Andhra Pradesh'}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const mData = await marketRes.json()
 
       // 3. Fetch Matching Schemes
-      const schemesRes = await fetch('/api/schemes/match', {
+      const schemesRes = await fetch(`${API_BASE}/api/schemes/match`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const sData = await schemesRes.json()
 
       // 4. Fetch Alert Logs
-      const alertsRes = await fetch('/api/alerts', {
+      const alertsRes = await fetch(`${API_BASE}/api/alerts`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const aData = await alertsRes.json()

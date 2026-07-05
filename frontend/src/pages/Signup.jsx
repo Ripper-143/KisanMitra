@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { translations } from '../translations'
 import { UserPlus, User, Phone, Mail, Key, ShieldAlert } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function Signup({ setAuth, lang, onToggleAuth }) {
   const t = translations[lang]
@@ -45,7 +46,7 @@ export default function Signup({ setAuth, lang, onToggleAuth }) {
     }
 
     try {
-      const response = await fetch('/api/auth/signup', {
+      const response = await fetch(`${API_BASE}/api/auth/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)

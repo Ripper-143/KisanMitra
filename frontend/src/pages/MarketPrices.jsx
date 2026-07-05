@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { translations, translateTerm, getTranslatedAdvisory } from '../translations'
 import { CircleDollarSign, Search, Sparkles, TrendingUp } from 'lucide-react'
+import { API_BASE } from '../api'
 
 export default function MarketPrices({ lang, user }) {
   const t = translations[lang]
@@ -22,7 +23,7 @@ export default function MarketPrices({ lang, user }) {
     if (!token) return
 
     try {
-      const response = await fetch(`/api/market/prices?crop=${crop}&state=${state}`, {
+      const response = await fetch(`${API_BASE}/api/market/prices?crop=${crop}&state=${state}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       })
       const data = await response.json()
