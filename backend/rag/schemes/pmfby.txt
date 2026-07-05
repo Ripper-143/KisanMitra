@@ -1,0 +1,33 @@
+Pradhan Mantri Fasal Bima Yojana (PMFBY) Crop Insurance Guidelines
+==================================================================
+1. About the Scheme:
+PMFBY is the flagship crop insurance scheme of the Government of India, aimed at supporting sustainable production in the agriculture sector by providing financial support to farmers suffering crop loss or damage arising out of natural calamities, pests, and diseases.
+
+2. Coverage of Farmers:
+- All farmers growing notified crops in notified areas during the season, who have a shareholding, tenancy, or ownership interest, are eligible.
+- The scheme is voluntary for all farmers (previously it was mandatory for loanee farmers).
+- Covers tenant farmers and sharecroppers who are cultivating notified crops in notified areas.
+
+3. Coverage of Crops:
+- Food crops (Cereals, Millets, and Pulses).
+- Oilseeds.
+- Annual Commercial / Annual Horticultural crops.
+
+4. Premium Rates:
+The premium paid by farmers is extremely low and capped as follows:
+- Kharif Crops: 2.0% of sum insured or actuarial rate, whichever is lower.
+- Rabi Crops: 1.5% of sum insured or actuarial rate, whichever is lower.
+- Commercial / Horticultural Crops: 5.0% of sum insured or actuarial rate, whichever is lower.
+The balance premium is subsidized equally by the Central and State Governments.
+
+5. Risk Coverage & Exclusions:
+- Yield Losses: Covers standing crops against non-preventable risks like drought, dry spells, flood, inundation, pests, diseases, landslide, natural fire, lightning, storm, hailstorm, cyclone.
+- Prevented Sowing/Planting: Covers situations where farmers are prevented from sowing/planting due to adverse seasonal conditions.
+- Post-Harvest Losses: Covers crop damage up to a maximum period of two weeks from harvesting for those crops which are kept in "cut and spread" condition in the field for drying.
+- Localized Calamities: Loss or damage resulting from localized occurrences of hailstorm, landslide, inundation, cloudburst, and natural fire.
+- Exclusions: Losses arising out of war, nuclear risks, malicious damage, and other preventable risks.
+
+6. Claims Process:
+- For localized calamities and post-harvest losses, the farmer must notify the insurance company, local agriculture department officer, or bank within 72 hours of the occurrence of damage.
+- Assessment is conducted jointly by the insurance company and the state agricultural department.
+- Payouts are made directly into the farmer's bank account via DBT.

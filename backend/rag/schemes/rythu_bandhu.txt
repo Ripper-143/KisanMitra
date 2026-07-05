@@ -1,0 +1,23 @@
+Rythu Bandhu Scheme Guidelines (Telangana)
+=========================================
+1. About the Scheme:
+Rythu Bandhu (Agriculture Investment Support Scheme) is a welfare program implemented by the Government of Telangana to support farmer investment for two crops a year. It is the first direct investment support scheme for farmers in India, where cash is paid directly to cover inputs like seeds, fertilizer, pesticides, labor, and field preparation.
+
+2. Benefits:
+Under the scheme, financial assistance of Rs. 5,000 per acre per season is provided directly to the land-owning farmers. For two seasons (Kharif and Rabi), the total support is Rs. 10,000 per acre per year. There is no ceiling on the acreage; assistance is calculated per acre owned by the farmer.
+
+3. Eligibility:
+- The scheme is eligible for all landholder farmers in Telangana who own cultivable land.
+- Eligible landholders must have their names registered in the online land records portal (Dharani).
+- Joint holding farmers are eligible, and payouts are distributed proportionally.
+- It covers all major agricultural crops including Paddy, Cotton, Maize, Red Gram, Soya, and Turmeric.
+
+4. Exclusions:
+- Tenant farmers are currently excluded from this scheme (assistance is paid only to the registered pattadars/owners).
+- Non-agricultural lands, commercial lands, or lands without cultivation history are excluded.
+
+5. Rythu Bima (Group Life Insurance Scheme for Farmers):
+- In addition to Rythu Bandhu, Telangana provides Rythu Bima.
+- Provides life insurance cover of Rs. 5,00,000 (Rupees Five Lakhs) to the nominee in the event of the farmer's death (regardless of natural or accidental cause).
+- Age limit of the farmer: 18 to 59 years.
+- Entire premium is paid by the State Government of Telangana to the Life Insurance Corporation of India (LIC).

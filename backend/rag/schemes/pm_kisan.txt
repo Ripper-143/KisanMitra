@@ -1,0 +1,31 @@
+Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) Guidelines
+======================================================
+1. About the Scheme:
+PM-Kisan is a Central Sector Scheme of the Government of India that provides income support to all landholding farmers' families across the country to enable them to take care of expenses related to agriculture and allied activities as well as domestic needs.
+
+2. Benefits:
+Under the scheme, financial assistance of Rs. 6,000 per year is provided in three equal installments of Rs. 2,000 every four months. The funds are transferred directly into the bank accounts of the beneficiaries (Direct Benefit Transfer - DBT) based on Aadhaar-enabled authentication.
+
+3. Eligibility Criteria:
+- All landholder farmer families who own cultivable land in their names are eligible.
+- A "farmer family" is defined as a husband, wife, and minor children.
+- Land holding size: Originally restricted to small and marginal farmers (up to 2 hectares), the scheme has been expanded to cover all landholding farmers irrespective of the size of their landholdings.
+- State residency: Farmers from all Indian states and Union Territories are eligible.
+
+4. Exclusions:
+The following categories of beneficiaries of higher economic status are NOT eligible:
+- Institutional landholders.
+- Farmer families where one or more members belong to the following categories:
+  - Former or current holders of constitutional posts.
+  - Former or current Ministers, Members of Lok Sabha/Rajya Sabha, Members of State Legislative Assemblies/Councils, Mayors of Municipal Corporations, Chairpersons of District Panchayats.
+  - Serving or retired officers and employees of Central/State government ministries, offices, departments, or public sector undertakings.
+  - All retired pensioners whose monthly pension is Rs. 10,000 or more (excluding multi-tasking staff/Class IV/Group D employees).
+  - Persons who paid Income Tax in the last assessment year.
+  - Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with professional bodies.
+
+5. Documents Required for Application:
+- Citizenship certificate / Proof of identity.
+- Landholding documents (Pattadar Passbook / Land Revenue receipts).
+- Aadhaar Card (mandatory).
+- Bank Account Details (for DBT transfer).
+- Mobile Number.

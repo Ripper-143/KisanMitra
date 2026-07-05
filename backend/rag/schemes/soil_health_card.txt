@@ -1,0 +1,5 @@
+Soil Health Card (SHC) Scheme
+National Agriculture Health Scheme.
+1. Eligibility: All landholding farmers across India are eligible for soil assessment under this scheme.
+2. Benefits: Provides detailed analysis of soil nutrient levels (Macro, Micro, and Physical parameters). Suggests crop-wise fertilizer dosage recommendations. Helps farmers reduce input costs and increase yields. Tests are completed free of charge once every two years.
+3. How to Apply: Farmers can submit soil samples to local Soil Testing Laboratories (STL), Krishi Vigyan Kendras (KVK), or through block agriculture offices. Cards are issued digitally.
