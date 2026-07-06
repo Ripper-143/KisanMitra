@@ -51,12 +51,12 @@ app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
 
 # ── Routes Inclusion ──────────────────────────────────────────────────────────
 
-app.include_router(auth_router)
-app.include_router(crop_router)
-app.include_router(market_router)
-app.include_router(weather_router)
-app.include_router(schemes_router)
-app.include_router(alerts_router)
+app.include_router(auth_router, prefix="/api")
+app.include_router(crop_router, prefix="/api")
+app.include_router(market_router, prefix="/api")
+app.include_router(weather_router, prefix="/api")
+app.include_router(schemes_router, prefix="/api")
+app.include_router(alerts_router, prefix="/api")
 
 # ── Startup Database Creation ─────────────────────────────────────────────────
 
